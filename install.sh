@@ -68,7 +68,7 @@ EOF
 clone_repo(){
     echo "进行初始化。。。"
 	rm -rf IBMYes-edit-from-CCChieh
-    git clone https://github.com/rootmelo92118/IBM-cloudfoundry-continue
+    git clone https://github.com/hjz888/IBM-cloudfoundry-continue
     cd IBM-cloudfoundry-continue
     git submodule update --init --recursive
     cd cloudfoundry/fullaccesstointernet/
@@ -113,7 +113,7 @@ install(){
     {
       "v": "2",
       "ps": "v2ray-WebSocket+TLS IBM United States",
-      "add": "${IBM_APP_NAME}.us-south.cf.appdomain.cloud",
+      "add": "${IBM_APP_NAME}.eu-gb.cf.appdomain.cloud",
       "port": "443",
       "id": "${UUID}",
       "aid": "64",
