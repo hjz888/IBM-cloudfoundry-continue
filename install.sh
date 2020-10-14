@@ -130,7 +130,7 @@ EOF
 
 }
 
-ibmcloud login -a 'https://cloud.ibm.com' -r 'us-south'
+ibmcloud login -a 'https://cloud.ibm.com' -r 'eu-gb'
 clone_repo
 create_mainfest_file
 install
